@@ -39,7 +39,7 @@ const tools: OpenAI.Chat.Completions.ChatCompletionTool[] = [
         properties: {
           salary_cap: {
             type: "number",
-            description: "Maximum total salary (default 50000)",
+            description: "Total budget. Default 49000 to leave buffer for rounding.",
           },
           exclude_player_ids: {
             type: "array",
@@ -111,7 +111,12 @@ function greedyOptimize(
     // Fallback 2: cheapest player who fits this slot at any price (we'll fix budget below)
     if (!pick) {
       pick = candidates
-        .filter((c) => !chosenIds.has(c.playerId) && c.slots.includes(slot))
+        .filter(
+          (c) =>
+            !chosenIds.has(c.playerId) &&
+            c.slots.includes(slot) &&
+            c.projection.salary <= remaining,
+        )
         .sort((a, b) => a.projection.salary - b.projection.salary)[0];
     }
 
@@ -179,7 +184,7 @@ async function executeTool(name: string, args: any) {
   }
 
   if (name === "optimize_lineup") {
-    const { salary_cap = 50000, exclude_player_ids = [] } = args;
+    const { salary_cap = 49000, exclude_player_ids = [] } = args;
     const poolData = await getPlayerPool();
     const result = greedyOptimize(
       poolData.players,
@@ -232,7 +237,7 @@ export async function buildLineup(
 
   const systemPrompt = `You are FanDraft, an AI coach for daily fantasy basketball. Tonight's game is Spurs @ Thunder, WCF Game 5 (8:30 PM ET, series tied 2-2).
 
-Your task: Build an 8-player lineup under $50,000 salary cap.
+Your task: Build an 8-player lineup under a $49,000 salary cap (leaves buffer under the DraftKings $50K rule).
 
 Process:
 1. Call get_player_pool first to see available players
