@@ -149,39 +149,52 @@ export default function LineupBuilder() {
   const handleVoiceInput = () => {
     if (!speechSupported || isListening) return;
 
-    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-    const recognition = new SpeechRecognition();
+    try {
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      const recognition = new SpeechRecognition();
 
-    recognition.continuous = false;
-    recognition.lang = "en-US";
-    recognition.interimResults = false;
+      recognition.continuous = false;
+      recognition.lang = "en-US";
+      recognition.interimResults = false;
 
-    recognition.onstart = () => {
-      setIsListening(true);
-      setError(null);
-    };
+      recognition.onstart = () => {
+        setIsListening(true);
+        setError(null);
+      };
 
-    recognition.onresult = (event: any) => {
-      const transcript = event.results[0][0].transcript;
-      setRequest(transcript);
-      setIsListening(false);
-      
-      setTimeout(() => {
-        handleBuildLineup();
-      }, 100);
-    };
+      recognition.onresult = (event: any) => {
+        const transcript = event.results[0][0].transcript;
+        setRequest(transcript);
+        setIsListening(false);
+        
+        setTimeout(() => {
+          handleBuildLineup();
+        }, 100);
+      };
 
-    recognition.onerror = (event: any) => {
-      console.error("Speech recognition error:", event.error);
-      setIsListening(false);
-      setError("Voice input failed. Please try again.");
-    };
+      recognition.onerror = (event: any) => {
+        console.warn("Speech recognition error:", event.error);
+        setIsListening(false);
+        
+        if (event.error === "not-allowed" || event.error === "service-not-allowed") {
+          setError("Microphone access denied. Please allow microphone permissions.");
+        } else if (event.error === "network") {
+          setError("Voice input unavailable. Try typing instead or check microphone permissions.");
+        } else {
+          setError("Voice input failed. Please try typing your request.");
+        }
+      };
 
-    recognition.onend = () => {
-      setIsListening(false);
-    };
+      recognition.onend = () => {
+        setIsListening(false);
+      };
 
-    recognition.start();
+      recognition.start();
+    } catch (err) {
+      console.error("Failed to initialize speech recognition:", err);
+      setError("Voice input unavailable in this browser. Please type your request.");
+      setSpeechSupported(false);
+    }
   };
 
   const handleSpeakSummary = () => {
