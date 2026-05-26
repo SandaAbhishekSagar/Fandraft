@@ -102,14 +102,17 @@ export default function LineupBuilder() {
   const [error, setError] = useState<string | null>(null);
   const [isListening, setIsListening] = useState(false);
   const [speechSupported, setSpeechSupported] = useState(false);
+  const [ttsSupported, setTtsSupported] = useState(false);
 
   useEffect(() => {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     setSpeechSupported(!!SpeechRecognition);
+    setTtsSupported(typeof window !== "undefined" && "speechSynthesis" in window);
   }, []);
 
-  const handleBuildLineup = async () => {
-    if (!request.trim()) {
+  const handleBuildLineup = async (overrideRequest?: string) => {
+    const requestText = overrideRequest ?? request;
+    if (!requestText.trim()) {
       setError("Please enter a request");
       return;
     }
@@ -122,7 +125,7 @@ export default function LineupBuilder() {
       const response = await fetch("/api/build-lineup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ request }),
+        body: JSON.stringify({ request: requestText }),
       });
 
       const data = await response.json();
@@ -139,7 +142,7 @@ export default function LineupBuilder() {
     }
   };
 
-  const handleKeyPress = (e: React.KeyboardEvent) => {
+  const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
       handleBuildLineup();
@@ -166,10 +169,8 @@ export default function LineupBuilder() {
         const transcript = event.results[0][0].transcript;
         setRequest(transcript);
         setIsListening(false);
-        
-        setTimeout(() => {
-          handleBuildLineup();
-        }, 100);
+        // pass transcript directly — state update is async and won't be visible yet
+        handleBuildLineup(transcript);
       };
 
       recognition.onerror = (event: any) => {
@@ -245,13 +246,13 @@ export default function LineupBuilder() {
             type="text"
             value={request}
             onChange={(e) => setRequest(e.target.value)}
-            onKeyPress={handleKeyPress}
+            onKeyDown={handleKeyDown}
             placeholder="Ask FanDraft to build you a lineup..."
             className="flex-1 px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-lg text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-zinc-700"
             disabled={loading}
           />
           <button
-            onClick={handleBuildLineup}
+            onClick={() => handleBuildLineup()}
             disabled={loading}
             className="px-6 py-3 bg-blue-600 hover:bg-blue-500 disabled:bg-blue-800 disabled:cursor-not-allowed text-white font-semibold rounded-lg transition-colors"
           >
@@ -316,7 +317,7 @@ export default function LineupBuilder() {
             </div>
           </div>
 
-          {window.speechSynthesis && (
+          {ttsSupported && (
             <div className="mt-4 text-center">
               <button
                 onClick={handleSpeakSummary}

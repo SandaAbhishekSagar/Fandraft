@@ -20,7 +20,14 @@ export async function POST(req: Request) {
     return NextResponse.json(result);
   } catch (error) {
     console.error("Error building lineup:", error);
-    
+
+    if (!process.env.OPENAI_API_KEY) {
+      return NextResponse.json(
+        { error: "OPENAI_API_KEY is not configured. Add it in your Vercel environment variables." },
+        { status: 500 }
+      );
+    }
+
     const errorMessage = error instanceof Error ? error.message : "An unexpected error occurred";
     
     return NextResponse.json(
