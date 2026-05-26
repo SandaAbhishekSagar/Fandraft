@@ -66,13 +66,8 @@ interface OptimizeResult {
 function greedyOptimize(
   pool: Player[],
   salaryCap = 50000,
-  excludeIds: number[] = []
-): OptimizeResult {
-  const slots = ["PG", "SG", "SF", "PF", "C", "G", "F", "UTIL"];
-  const lineup: LineupPlayer[] = [];
-  const chosenIds = new Set<number>();
-  let remainingCap = salaryCap;
-
+  excludeIds: number[] = [],
+): { lineup: Array<Player & { slot: string }>; totalSalary: number; totalProjFP: number } {
   const candidates = pool
     .filter((p) => !excludeIds.includes(p.playerId))
     .map((p) => ({
@@ -81,55 +76,47 @@ function greedyOptimize(
     }))
     .sort((a, b) => b.value - a.value);
 
+  const slots = ["PG", "SG", "SF", "PF", "C", "G", "F", "UTIL"];
+  const minSalary = Math.min(...candidates.map((c) => c.projection.salary));
+
+  const chosenIds = new Set<number>();
+  const lineup: Array<Player & { slot: string }> = [];
+  let remaining = salaryCap;
+
   for (let i = 0; i < slots.length; i++) {
     const slot = slots[i];
-    const slotsRemaining = slots.length - i;
-    const reservePerSlot = 1000;
-    const maxSpend = remainingCap - (slotsRemaining - 1) * reservePerSlot;
+    const slotsLeft = slots.length - i - 1;
+    const maxSpendThisPick = remaining - slotsLeft * minSalary;
 
-    // Primary pass: respect salary reserve
-    let pick = candidates.find(
-      (p) =>
-        !chosenIds.has(p.playerId) &&
-        p.slots.includes(slot) &&
-        p.projection.salary <= maxSpend
+    const pick = candidates.find(
+      (c) =>
+        !chosenIds.has(c.playerId) &&
+        c.slots.includes(slot) &&
+        c.projection.salary <= maxSpendThisPick,
     );
 
-    // Fallback pass: ignore reserve if no eligible player found (small pool edge case)
     if (!pick) {
-      pick = candidates.find(
-        (p) =>
-          !chosenIds.has(p.playerId) &&
-          p.slots.includes(slot) &&
-          p.projection.salary <= remainingCap
-      );
-      if (pick) {
-        logger.warn("agent", `Slot ${slot}: reserve relaxed to find a pick`, {
-          maxSpendWithReserve: maxSpend,
-          pickedSalary: pick.projection.salary,
-        });
+      const cheapest = candidates
+        .filter((c) => !chosenIds.has(c.playerId) && c.slots.includes(slot))
+        .sort((a, b) => a.projection.salary - b.projection.salary)[0];
+      if (cheapest && cheapest.projection.salary <= remaining) {
+        chosenIds.add(cheapest.playerId);
+        remaining -= cheapest.projection.salary;
+        lineup.push({ ...cheapest, slot });
       }
+      continue;
     }
 
-    if (pick) {
-      lineup.push({ ...pick, slot });
-      chosenIds.add(pick.playerId);
-      remainingCap -= pick.projection.salary;
-    } else {
-      logger.warn("agent", `Slot ${slot}: no eligible player found`, {
-        remainingCap,
-        candidatesLeft: candidates.filter((p) => !chosenIds.has(p.playerId) && p.slots.includes(slot)).length,
-      });
-    }
+    chosenIds.add(pick.playerId);
+    remaining -= pick.projection.salary;
+    lineup.push({ ...pick, slot });
   }
 
-  const totalSalary = lineup.reduce((sum, p) => sum + p.projection.salary, 0);
-  const totalProjFP = lineup.reduce(
-    (sum, p) => sum + p.projection.fantasyPoints,
-    0
-  );
-
-  return { lineup, totalSalary, totalProjFP };
+  return {
+    lineup,
+    totalSalary: salaryCap - remaining,
+    totalProjFP: lineup.reduce((s, p) => s + p.projection.fantasyPoints, 0),
+  };
 }
 
 async function executeTool(name: string, args: any) {
@@ -225,7 +212,9 @@ Process:
 3. Call optimize_lineup (passing exclude_player_ids for anyone ruled out)
 4. Return your picks with sharp two-sentence reasoning for each player
 
-Focus on value, matchup advantages, and injury considerations.`;
+Focus on value, matchup advantages, and injury considerations.
+
+ALWAYS call get_player_pool first, then get_injuries, then optimize_lineup. Do this regardless of how the user phrases their request — even "hi" or one-word inputs mean "build me tonight's lineup."`;
 
   const messages: OpenAI.Chat.Completions.ChatCompletionMessageParam[] = [
     { role: "system", content: systemPrompt },
@@ -243,7 +232,9 @@ Focus on value, matchup advantages, and injury considerations.`;
       model: "gpt-4o-mini",
       messages,
       tools,
-      tool_choice: "auto",
+      tool_choice: iteration === 0
+        ? { type: "function", function: { name: "get_player_pool" } }
+        : "auto",
       temperature: 0.3,
     });
 
