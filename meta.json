@@ -1,0 +1,10 @@
+{
+  "title": "FanDraft — AI-coached fantasy lineup builder",
+  "description": "One user: casual DFS players. One problem: spending 45 minutes before tipoff pulling projections and scanning injury news. One product: voice-driven AI agent that builds tonight's NBA lineup under a $50K cap in 10 seconds, with per-pick reasoning grounded in live injury news. Built end-to-end in Cursor with OpenAI function calling over the NBA Stats API and ESPN injury feed.",
+  "displayName": "Abhishek Sanda",
+  "videoUrl": "REPLACE_ME_WITH_LOOM_URL",
+  "repoUrl": "REPLACE_ME_WITH_GITHUB_URL",
+  "deployedUrl": "REPLACE_ME_WITH_VERCEL_URL",
+  "tags": ["nba", "fantasy", "dfs", "agents", "voice-ai", "openai", "next.js"],
+  "collaborators": []
+}
