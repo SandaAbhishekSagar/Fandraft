@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { logger } from "./logger";
 
 export interface Player {
   playerId: number;
@@ -78,13 +79,19 @@ interface PlayerPool {
  */
 export async function getPlayerPool(): Promise<PlayerPool> {
   const filePath = path.join(process.cwd(), "data", "players.json");
-  const fileContent = fs.readFileSync(filePath, "utf-8");
-  const data = JSON.parse(fileContent);
-  
-  return {
-    ...data,
-    __source: "fallback",
-  };
+  logger.debug("data-source", "Reading player pool", { filePath });
+  try {
+    const fileContent = fs.readFileSync(filePath, "utf-8");
+    const data = JSON.parse(fileContent);
+    logger.info("data-source", "Player pool loaded", { count: data.players?.length });
+    return { ...data, __source: "fallback" };
+  } catch (err) {
+    logger.error("data-source", "Failed to read players.json", {
+      filePath,
+      error: err instanceof Error ? err.message : String(err),
+    });
+    throw err;
+  }
 }
 
 /**
@@ -92,38 +99,53 @@ export async function getPlayerPool(): Promise<PlayerPool> {
  */
 export async function getInjuries(): Promise<Injury> {
   const ESPN_URL = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50";
-  
+  logger.info("data-source", "Fetching injuries from ESPN", { url: ESPN_URL });
+
   try {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 2500);
-    
+
     const response = await fetch(ESPN_URL, {
       signal: controller.signal,
       headers: {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       },
     });
-    
+
     clearTimeout(timeout);
-    
+
     if (!response.ok) {
       throw new Error(`ESPN API returned ${response.status}`);
     }
-    
+
     const liveData = await response.json();
-    
+    const count = liveData.articles?.length || 0;
+    logger.info("data-source", "ESPN injuries fetched (live)", { count });
+
     return {
       generatedAt: new Date().toISOString(),
       source: "espn_live",
-      count: liveData.articles?.length || 0,
+      count,
       articles: liveData.articles || [],
     };
   } catch (error) {
-    console.warn("Failed to fetch live injuries from ESPN, using fallback:", error);
-    
+    logger.warn("data-source", "ESPN fetch failed — falling back to cached injuries", {
+      error: error instanceof Error ? error.message : String(error),
+    });
+
     const filePath = path.join(process.cwd(), "data", "injuries.json");
-    const fileContent = fs.readFileSync(filePath, "utf-8");
-    return JSON.parse(fileContent);
+    try {
+      const fileContent = fs.readFileSync(filePath, "utf-8");
+      const data = JSON.parse(fileContent);
+      logger.info("data-source", "Cached injuries loaded", { count: data.articles?.length });
+      return data;
+    } catch (fsErr) {
+      logger.error("data-source", "Failed to read cached injuries.json", {
+        filePath,
+        error: fsErr instanceof Error ? fsErr.message : String(fsErr),
+      });
+      throw fsErr;
+    }
   }
 }
 
@@ -132,8 +154,17 @@ export async function getInjuries(): Promise<Injury> {
  */
 export function getTonight(): Tonight {
   const filePath = path.join(process.cwd(), "data", "tonight.json");
-  const fileContent = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(fileContent);
+  logger.debug("data-source", "Reading tonight.json", { filePath });
+  try {
+    const fileContent = fs.readFileSync(filePath, "utf-8");
+    return JSON.parse(fileContent);
+  } catch (err) {
+    logger.error("data-source", "Failed to read tonight.json", {
+      filePath,
+      error: err instanceof Error ? err.message : String(err),
+    });
+    throw err;
+  }
 }
 
 /**

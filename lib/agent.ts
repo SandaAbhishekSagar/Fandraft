@@ -1,5 +1,6 @@
 import OpenAI from "openai";
 import { getPlayerPool, getInjuries, Player } from "./data-source";
+import { logger } from "./logger";
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
@@ -189,6 +190,9 @@ interface BuildLineupResult {
 export async function buildLineup(
   userRequest: string
 ): Promise<BuildLineupResult> {
+  const start = Date.now();
+  logger.info("agent", "buildLineup started", { request: userRequest.slice(0, 120) });
+
   const systemPrompt = `You are FanDraft, an AI coach for daily fantasy basketball. Tonight's game is Spurs @ Thunder, WCF Game 5 (8:30 PM ET, series tied 2-2).
 
 Your task: Build an 8-player lineup under $50,000 salary cap.
@@ -211,6 +215,8 @@ Focus on value, matchup advantages, and injury considerations.`;
   let latestLineup: any = null;
 
   for (let iteration = 0; iteration < 5; iteration++) {
+    logger.debug("agent", `Loop iteration ${iteration + 1}`);
+
     const response = await openai.chat.completions.create({
       model: "gpt-4o-mini",
       messages,
@@ -223,33 +229,53 @@ Focus on value, matchup advantages, and injury considerations.`;
     messages.push(assistantMessage);
 
     if (!assistantMessage.tool_calls || assistantMessage.tool_calls.length === 0) {
+      logger.info("agent", `Loop finished at iteration ${iteration + 1} (no tool calls)`);
       break;
     }
 
     for (const toolCall of assistantMessage.tool_calls) {
       if (toolCall.type !== "function") continue;
-      
+
       const toolName = toolCall.function.name;
       const toolArgs = JSON.parse(toolCall.function.arguments);
+      const toolTrace = `${toolName}(${JSON.stringify(toolArgs)})`;
+      toolCallTrace.push(toolTrace);
 
-      toolCallTrace.push(`${toolName}(${JSON.stringify(toolArgs)})`);
+      logger.info("agent", `Tool call: ${toolTrace}`);
 
-      const result = await executeTool(toolName, toolArgs);
+      try {
+        const result = await executeTool(toolName, toolArgs);
 
-      if (toolName === "optimize_lineup") {
-        optimizerRan = true;
-        latestLineup = result;
+        if (toolName === "optimize_lineup") {
+          optimizerRan = true;
+          latestLineup = result;
+          logger.info("agent", "optimize_lineup result", {
+            players: (result as any).lineup?.length,
+            totalSalary: (result as any).totalSalary,
+            totalProjFP: (result as any).totalProjFP,
+          });
+        } else {
+          logger.debug("agent", `Tool ${toolName} returned`, {
+            keys: Object.keys(result as object),
+          });
+        }
+
+        messages.push({
+          role: "tool",
+          tool_call_id: toolCall.id,
+          content: JSON.stringify(result),
+        });
+      } catch (toolError) {
+        logger.error("agent", `Tool ${toolName} threw an error`, {
+          error: toolError instanceof Error ? toolError.message : String(toolError),
+        });
+        throw toolError;
       }
-
-      messages.push({
-        role: "tool",
-        tool_call_id: toolCall.id,
-        content: JSON.stringify(result),
-      });
     }
   }
 
   if (!optimizerRan) {
+    logger.warn("agent", "Optimizer never ran — force-running fallback");
     toolCallTrace.push("optimize_lineup(forced_fallback)");
     const poolData = await getPlayerPool();
     latestLineup = greedyOptimize(poolData.players, 50000, []);
@@ -269,6 +295,8 @@ Focus on value, matchup advantages, and injury considerations.`;
     };
   }
 
+  logger.info("agent", "Starting synthesis call (gpt-4o)");
+
   messages.push({
     role: "user",
     content: `Now provide a final summary as JSON with this exact structure:
@@ -287,9 +315,10 @@ Focus on value, matchup advantages, and injury considerations.`;
     temperature: 0.5,
   });
 
-  const synthesis = JSON.parse(
-    synthesisResponse.choices[0].message.content || "{}"
-  );
+  const rawSynthesis = synthesisResponse.choices[0].message.content || "{}";
+  logger.debug("agent", "Synthesis raw response", { length: rawSynthesis.length });
+
+  const synthesis = JSON.parse(rawSynthesis);
 
   const reasoningMap = new Map(
     synthesis.picks?.map((p: any) => [p.playerId, p.reasoning]) || []
@@ -299,6 +328,13 @@ Focus on value, matchup advantages, and injury considerations.`;
     ...player,
     reasoning: reasoningMap.get(player.playerId) || "Strategic pick for lineup balance.",
   }));
+
+  const durationMs = Date.now() - start;
+  logger.info("agent", "buildLineup complete", {
+    durationMs,
+    toolCalls: toolCallTrace.length,
+    lineupSize: lineupWithReasoning.length,
+  });
 
   return {
     lineup: lineupWithReasoning,
