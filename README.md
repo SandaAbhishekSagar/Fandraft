@@ -6,8 +6,14 @@ Built in 90 minutes at Cursor Boston × Hult Sports Hack 2026 using Cursor agent
 
 ## Demo
 
-- **Live:** [insert Vercel URL]
-- **Loom:** [insert Loom URL]
+- **Live:** https://fandraft-production.up.railway.app
+- **Loom:** REPLACE_WITH_LOOM_URL_AFTER_RECORDING
+
+## Screenshot
+
+![FanDraft lineup card](./docs/screenshot.png)
+
+Live lineup for tonight's WCF Game 5 — Spurs at Thunder, generated in ~8 seconds via voice command.
 
 ## The problem
 
@@ -29,7 +35,7 @@ A coordinator agent (OpenAI gpt-4o-mini) calls three tools via OpenAI function c
 
 1. **get_player_pool** — returns tonight's eligible Spurs and Thunder players with projected fantasy points and salaries
 2. **get_injuries** — pulls recent injury articles from ESPN's public news feed (live)
-3. **optimize_lineup** — greedy, position-aware lineup builder under the $50K cap
+3. **optimize_lineup** — position-aware lineup builder with salary-reserve budgeting and cheapest-fit fallback, enforces the $50K cap across 8 DK slots (PG/SG/SF/PF/C/G/F/UTIL)
 
 A final synthesis call (gpt-4o) generates per-pick reasoning in JSON mode. The browser's Web Speech API handles voice in and out.
 
@@ -48,7 +54,7 @@ graph LR
 
 ## Stack
 
-- Next.js 14 (app router) + TypeScript + Tailwind, deployed on Vercel
+- Next.js 16 (app router) + TypeScript + Tailwind, deployed on Railway
 - OpenAI API: gpt-4o-mini for tool-calling, gpt-4o for synthesis
 - NBA Stats API (pre-cached) + ESPN injury feed (live)
 - Web Speech API for voice in/out
