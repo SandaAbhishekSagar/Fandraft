@@ -1,0 +1,16 @@
+{
+  "date": "2026-05-26",
+  "tipoff_et": "8:30 PM",
+  "game_label": "WCF Game 5",
+  "series_state": "Tied 2-2",
+  "away": {
+    "abbr": "SAS",
+    "name": "San Antonio Spurs",
+    "teamId": 1610612759
+  },
+  "home": {
+    "abbr": "OKC",
+    "name": "Oklahoma City Thunder",
+    "teamId": 1610612760
+  }
+}

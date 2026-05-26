@@ -1,0 +1,3733 @@
+{
+  "generatedAt": "2026-05-26T15:51:19.172Z",
+  "source": "espn_news_feed",
+  "count": 50,
+  "articles": [
+    {
+      "headline": "Stephen A.: Chet Holmgren looks defeated",
+      "description": "Stephen A. Smith weighs in on what he has seen from Chet Holmgren ahead of the Thunder's matchup vs. the Spurs in Game 5.  ",
+      "type": "Media",
+      "published": "2026-05-26T15:39:07Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "athlete",
+          "description": "Chet Holmgren"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "event",
+          "description": "San Antonio Spurs @ Oklahoma City Thunder"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/video/clip/_/id/48881793/chet-holmgren-looks-defeated"
+    },
+    {
+      "headline": "Stephen A. can't contain his excitement over Knicks' title chances",
+      "description": "Stephen A. Smith breaks down the Knicks' title chances after sweeping the Cavaliers in the Eastern Conference finals.",
+      "type": "Media",
+      "published": "2026-05-26T15:42:23Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "contributor",
+          "description": "Stephen A. Smith"
+        },
+        {
+          "type": "series",
+          "description": "First Take"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Team Boost"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Verts - Exclude Content"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/video/clip/_/id/48881650/stephen-contain-excitement-knicks-title-chances"
+    },
+    {
+      "headline": "Perk unleashes his disgust at Cavs' performance vs. Knicks",
+      "description": "Kendrick Perkins joins \"First Take\" and criticizes the Cavaliers' effort after being swept by the Knicks in the Eastern Conference finals.",
+      "type": "Media",
+      "published": "2026-05-26T14:54:39Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "athlete",
+          "description": "Kendrick Perkins"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "League Boost"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Verts - Exclude Content"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/video/clip/_/id/48881426/perk-unleashes-disgust-cavs-performance-vs-knicks"
+    },
+    {
+      "headline": "'The Hoop Collective': Episodes of Brian Windhorst's NBA podcast",
+      "description": "From breaking news to the latest intel from around the NBA, here are the top highlights from Brian Windhorst's \"The Hoop Collective\" podcast.",
+      "type": "Story",
+      "published": "2026-05-26T13:58:18Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "topic",
+          "description": "nba trade deadline"
+        },
+        {
+          "type": "contributor",
+          "description": "ESPN Staff Profile"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/47168192/the-hoop-collective-latest-episodes-brian-windhorst-nba-podcast-archive-best-quotes"
+    },
+    {
+      "headline": "Windy: Knicks’ 11-game run among most dominant ever",
+      "description": "Brian Windhorst explains why the Knicks' 11-game unbeaten run to the NBA Finals is historic.",
+      "type": "Media",
+      "published": "2026-05-26T13:01:28Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "series",
+          "description": "Get Up!"
+        },
+        {
+          "type": "contributor",
+          "description": "Brian Windhorst"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Verts - Exclude Content"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/video/clip/_/id/48880575/knicks-11-game-run-most-dominant-ever"
+    },
+    {
+      "headline": "Knicks fans savoring record run to first NBA Finals since 1999",
+      "description": "Long-suffering fans poured into city streets to celebrate the Knicks' record run to the Eastern Conference title and its first trip to the NBA Finals since 1999.",
+      "type": "HeadlineNews",
+      "published": "2026-05-26T12:09:41Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "athlete",
+          "description": "Jalen Brunson"
+        },
+        {
+          "type": "topic",
+          "description": "news"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48880329/knicks-fans-savoring-record-run-first-nba-finals-1999"
+    },
+    {
+      "headline": "How De'Aaron Fox became the Spurs' closer",
+      "description": "Fox put San Antonio at the top of his list when leaving Sacramento, and he has become their veteran leader.",
+      "type": "Story",
+      "published": "2026-05-26T14:35:42Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "athlete",
+          "description": "De'Aaron Fox"
+        },
+        {
+          "type": "athlete",
+          "description": "Victor Wembanyama"
+        },
+        {
+          "type": "athlete",
+          "description": "Stephon Castle"
+        },
+        {
+          "type": "athlete",
+          "description": "Dylan Harper"
+        },
+        {
+          "type": "contributor",
+          "description": "Michael C. Wright"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48854816/deaaron-fox-san-antonio-spurs-closer-nba-playoffs"
+    },
+    {
+      "headline": "NBA extension watch: 20 players who could shape the offseason",
+      "description": "These are the most important NBA deals that could get done, plus how each outcome could help shape next season.",
+      "type": "Story",
+      "published": "2026-05-26T12:31:35Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "Milwaukee Bucks"
+        },
+        {
+          "type": "athlete",
+          "description": "Giannis Antetokounmpo"
+        },
+        {
+          "type": "team",
+          "description": "Golden State Warriors"
+        },
+        {
+          "type": "athlete",
+          "description": "Stephen Curry"
+        },
+        {
+          "type": "athlete",
+          "description": "Draymond Green"
+        },
+        {
+          "type": "team",
+          "description": "Denver Nuggets"
+        },
+        {
+          "type": "athlete",
+          "description": "Nikola Jokic"
+        },
+        {
+          "type": "team",
+          "description": "Boston Celtics"
+        },
+        {
+          "type": "athlete",
+          "description": "Jaylen Brown"
+        },
+        {
+          "type": "athlete",
+          "description": "Payton Pritchard"
+        },
+        {
+          "type": "team",
+          "description": "Minnesota Timberwolves"
+        },
+        {
+          "type": "athlete",
+          "description": "Anthony Edwards"
+        },
+        {
+          "type": "team",
+          "description": "Indiana Pacers"
+        },
+        {
+          "type": "athlete",
+          "description": "Tyrese Haliburton"
+        },
+        {
+          "type": "athlete",
+          "description": "Pascal Siakam"
+        },
+        {
+          "type": "team",
+          "description": "LA Clippers"
+        },
+        {
+          "type": "athlete",
+          "description": "Kawhi Leonard"
+        },
+        {
+          "type": "athlete",
+          "description": "Darius Garland"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "athlete",
+          "description": "Donovan Mitchell"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "athlete",
+          "description": "Karl-Anthony Towns"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "athlete",
+          "description": "Victor Wembanyama"
+        },
+        {
+          "type": "team",
+          "description": "Charlotte Hornets"
+        },
+        {
+          "type": "athlete",
+          "description": "LaMelo Ball"
+        },
+        {
+          "type": "team",
+          "description": "New Orleans Pelicans"
+        },
+        {
+          "type": "athlete",
+          "description": "Zion Williamson"
+        },
+        {
+          "type": "team",
+          "description": "Phoenix Suns"
+        },
+        {
+          "type": "athlete",
+          "description": "Dillon Brooks"
+        },
+        {
+          "type": "team",
+          "description": "Washington Wizards"
+        },
+        {
+          "type": "athlete",
+          "description": "Anthony Davis"
+        },
+        {
+          "type": "team",
+          "description": "Houston Rockets"
+        },
+        {
+          "type": "athlete",
+          "description": "Amen Thompson"
+        },
+        {
+          "type": "team",
+          "description": "Detroit Pistons"
+        },
+        {
+          "type": "athlete",
+          "description": "Ausar Thompson"
+        },
+        {
+          "type": "contributor",
+          "description": "Bobby Marks"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48853097/nba-contract-extension-watch-20-players-shape-offseason-big-money"
+    },
+    {
+      "headline": "The on-court trends defining the 2026 NBA playoffs",
+      "description": "From Wemby's dominance to the Cavs' scoring problems, these storylines are shaping the conference finals.",
+      "type": "Story",
+      "published": "2026-05-26T11:22:41Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "topic",
+          "description": "daily"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "athlete",
+          "description": "Victor Wembanyama"
+        },
+        {
+          "type": "athlete",
+          "description": "Alex Caruso"
+        },
+        {
+          "type": "athlete",
+          "description": "Jalen Brunson"
+        },
+        {
+          "type": "athlete",
+          "description": "Karl-Anthony Towns"
+        },
+        {
+          "type": "athlete",
+          "description": "OG Anunoby"
+        },
+        {
+          "type": "athlete",
+          "description": "James Harden"
+        },
+        {
+          "type": "athlete",
+          "description": "Donovan Mitchell"
+        },
+        {
+          "type": "contributor",
+          "description": "Zach Kram"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48873100/on-court-trends-defining-2026-nba-playoffs-knicks-cavaliers-spurs-thunder"
+    },
+    {
+      "headline": "ESPN Africa secures exclusive NBA finals rights, and more, in sub-Saharan Africa",
+      "description": "ESPN Africa secures exclusive NBA Finals rights for English pay TV across Sub-Saharan Africa.",
+      "type": "Story",
+      "published": "2026-05-26T10:22:05Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/espn/story/_/id/48879952/espn-africa-secures-exclusive-nba-finals-rights-more-sub-saharan-africa"
+    },
+    {
+      "headline": "Mitchell, Harden see future with Cavs as Gilbert vows to 'dig in'",
+      "description": "In the wake of getting swept by the Knicks in the Eastern Conference finals, Donovan Mitchell reiterated his commitment to the Cavs, expressed confidence in his partnership with James Harden and said he'd like to see Cleveland's core remain together.",
+      "type": "HeadlineNews",
+      "published": "2026-05-26T06:32:27Z",
+      "categories": [
+        {
+          "type": "topic",
+          "description": "news"
+        },
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "athlete",
+          "description": "Donovan Mitchell"
+        },
+        {
+          "type": "athlete",
+          "description": "James Harden"
+        },
+        {
+          "type": "contributor",
+          "description": "Jamal Collier"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48878920/donovan-mitchell-james-harden-see-future-cavaliers-team-owner-dan-gilbert-vows-dig-in"
+    },
+    {
+      "headline": "Stephen A. on Knicks reaching NBA Finals: All the suffering ended tonight!",
+      "description": "Stephen A. Smith cannot contain his excitement after the Knicks reached the NBA Finals for the first time since 1999.",
+      "type": "Media",
+      "published": "2026-05-26T06:41:58Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "topic",
+          "description": "fantasy"
+        },
+        {
+          "type": "topic",
+          "description": "nba highlight"
+        },
+        {
+          "type": "league",
+          "description": "Fantasy NBA"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "athlete",
+          "description": "Jalen Brunson"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Verts - Exclude Content"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Big Boost"
+        },
+        {
+          "type": "event",
+          "description": "New York Knicks @ Cleveland Cavaliers"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/video/clip/_/id/48878848/all-suffering-ended-tonight"
+    },
+    {
+      "headline": "KAT after sweeping Cavs: 'It's a good time to be peaking as a team'",
+      "description": "Karl Anthony-Towns joins \"SportsCenter with Scott Van Pelt\" to discuss the Knicks' sweep of the Cavs and preparation for the NBA Finals.",
+      "type": "Media",
+      "published": "2026-05-26T06:05:28Z",
+      "categories": [
+        {
+          "type": "editorialindicator",
+          "description": "2 Star Rating"
+        },
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "topic",
+          "description": "nba highlight"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Team Boost"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "athlete",
+          "description": "Karl-Anthony Towns"
+        },
+        {
+          "type": "series",
+          "description": "SportsCenter"
+        },
+        {
+          "type": "contributor",
+          "description": "Scott Van Pelt"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Verts - Exclude Content"
+        },
+        {
+          "type": "event",
+          "description": "New York Knicks @ Cleveland Cavaliers"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/video/clip/_/id/48878251/good-peaking-team"
+    },
+    {
+      "headline": "Zohran Mamdani pokes fun at Cavaliers after Knicks reach NBA Finals",
+      "description": "The Knicks are onto the NBA Finals for the first time since 1999, and New York City mayor Zohran Mamdani made sure to troll the Cavaliers.",
+      "type": "Story",
+      "published": "2026-05-26T03:52:15Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "contributor",
+          "description": "Anthony Gharib"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48878074/zohran-mamdani-new-york-knicks-trolls-pokes-fun-cleveland-cavaliers-nba-finals"
+    },
+    {
+      "headline": "Mike Brown: Knicks took accountability all season",
+      "type": "Media",
+      "published": "2026-05-26T06:04:04Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "topic",
+          "description": "fantasy"
+        },
+        {
+          "type": "topic",
+          "description": "nba highlight"
+        },
+        {
+          "type": "league",
+          "description": "Fantasy NBA"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Team Boost"
+        },
+        {
+          "type": "event",
+          "description": "New York Knicks @ Cleveland Cavaliers"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/video/clip/_/id/48878004/knicks-took-accountability-all-season"
+    },
+    {
+      "headline": "Brunson on reaching NBA Finals: 'From top to bottom, it means something'",
+      "type": "Media",
+      "published": "2026-05-26T06:06:01Z",
+      "categories": [
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "2 Star Rating"
+        },
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Team Boost"
+        },
+        {
+          "type": "athlete",
+          "description": "Jalen Brunson"
+        },
+        {
+          "type": "event",
+          "description": "New York Knicks @ Cleveland Cavaliers"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/video/clip/_/id/48877962/top-bottom-means-something"
+    },
+    {
+      "headline": "Landry Shamet reveals Knicks' open secret to success",
+      "type": "Media",
+      "published": "2026-05-26T05:16:30Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "topic",
+          "description": "fantasy"
+        },
+        {
+          "type": "topic",
+          "description": "nba highlight"
+        },
+        {
+          "type": "league",
+          "description": "Fantasy NBA"
+        },
+        {
+          "type": "series",
+          "description": "Inside the NBA"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/video/clip/_/id/48877941/landry-shamet-reveals-knicks-open-secret-success"
+    },
+    {
+      "headline": "NBA conference finals history: Winners, records and stats",
+      "description": "Every May brings the conference finals to the NBA! Check out all-time winners and key records and stats throughout event history now.",
+      "type": "Story",
+      "published": "2026-05-26T03:06:05Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "Indiana Pacers"
+        },
+        {
+          "type": "team",
+          "description": "Minnesota Timberwolves"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/45242046/nba-conference-finals-history-winners-records-stats"
+    },
+    {
+      "headline": "2026 NBA playoffs: Conference finals takeaways",
+      "description": "Here's what we've learned -- and what's next for the Spurs-Thunder series.",
+      "type": "Story",
+      "published": "2026-05-26T04:23:49Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "contributor",
+          "description": "NBA Insiders"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48771425/2026-nba-playoffs-conference-finals-takeaways-thunder-spurs-knicks-cavaliers"
+    },
+    {
+      "headline": "Who has played the most NBA playoff games without a title?",
+      "description": "Chris Paul, Patrick Ewing and John Stockton are among NBA greats who have played the most playoff games without winning a championship.",
+      "type": "Story",
+      "published": "2026-05-26T02:54:30Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "athlete",
+          "description": "James Harden"
+        },
+        {
+          "type": "athlete",
+          "description": "Chris Paul"
+        },
+        {
+          "type": "athlete",
+          "description": "Russell Westbrook"
+        },
+        {
+          "type": "athlete",
+          "description": "Jimmy Butler III"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/40327216/who-played-most-nba-playoff-games-title"
+    },
+    {
+      "headline": "Knicks sweep series, head to Finals after demolition of Cavs",
+      "description": "New York Knicks vs. Cleveland Cavaliers: Game Highlights",
+      "type": "Media",
+      "published": "2026-05-26T06:41:05Z",
+      "categories": [
+        {
+          "type": "athlete",
+          "description": "OG Anunoby"
+        },
+        {
+          "type": "athlete",
+          "description": "Donovan Mitchell"
+        },
+        {
+          "type": "athlete",
+          "description": "Karl-Anthony Towns"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "athlete",
+          "description": "Jalen Brunson"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "SC4U - Full Highlight"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "SC4U  - Eligible"
+        },
+        {
+          "type": "athlete",
+          "description": "Miles McBride"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "4 Star Rating"
+        },
+        {
+          "type": "topic",
+          "description": "fantasy"
+        },
+        {
+          "type": "topic",
+          "description": "nba highlight"
+        },
+        {
+          "type": "league",
+          "description": "Fantasy NBA"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Verts - Exclude Content"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "League Boost"
+        },
+        {
+          "type": "event",
+          "description": "New York Knicks @ Cleveland Cavaliers"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/video/clip/_/id/48877812/knicks-sweep-series-head-finals-demolition-cavs"
+    },
+    {
+      "headline": "NBA offseason: Draft, free agency, trade targets for eliminated teams",
+      "description": "For all but three NBA teams, the offseason is here. What lies ahead for the Cavs, Pistons, Wolves, Lakers and every eliminated team?",
+      "type": "Story",
+      "published": "2026-05-26T02:39:47Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "New Orleans Pelicans"
+        },
+        {
+          "type": "team",
+          "description": "Milwaukee Bucks"
+        },
+        {
+          "type": "team",
+          "description": "Brooklyn Nets"
+        },
+        {
+          "type": "team",
+          "description": "Chicago Bulls"
+        },
+        {
+          "type": "team",
+          "description": "Dallas Mavericks"
+        },
+        {
+          "type": "team",
+          "description": "Indiana Pacers"
+        },
+        {
+          "type": "team",
+          "description": "Memphis Grizzlies"
+        },
+        {
+          "type": "team",
+          "description": "Sacramento Kings"
+        },
+        {
+          "type": "team",
+          "description": "Utah Jazz"
+        },
+        {
+          "type": "team",
+          "description": "Washington Wizards"
+        },
+        {
+          "type": "team",
+          "description": "Miami Heat"
+        },
+        {
+          "type": "team",
+          "description": "LA Clippers"
+        },
+        {
+          "type": "topic",
+          "description": "nba free agency"
+        },
+        {
+          "type": "league",
+          "description": "NBA Draft"
+        },
+        {
+          "type": "team",
+          "description": "Golden State Warriors"
+        },
+        {
+          "type": "team",
+          "description": "Atlanta Hawks"
+        },
+        {
+          "type": "team",
+          "description": "Phoenix Suns"
+        },
+        {
+          "type": "team",
+          "description": "Boston Celtics"
+        },
+        {
+          "type": "team",
+          "description": "Orlando Magic"
+        },
+        {
+          "type": "team",
+          "description": "Toronto Raptors"
+        },
+        {
+          "type": "team",
+          "description": "Portland Trail Blazers"
+        },
+        {
+          "type": "team",
+          "description": "Houston Rockets"
+        },
+        {
+          "type": "team",
+          "description": "Denver Nuggets"
+        },
+        {
+          "type": "team",
+          "description": "Los Angeles Lakers"
+        },
+        {
+          "type": "team",
+          "description": "Minnesota Timberwolves"
+        },
+        {
+          "type": "team",
+          "description": "Detroit Pistons"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "contributor",
+          "description": "Bobby Marks"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48432907/nba-offseason-2026-draft-free-agency-trade-targets-30-teams"
+    },
+    {
+      "headline": "New York back in NBA Finals for first time since 1999 after beating Cleveland 130-93 to finish sweep",
+      "description": "— Karl Anthony-Towns had 19 points and 14 rebounds, OG Anunoby scored 17 and the New York Knicks routed the Cleveland Cavaliers 130-93 Monday night to complete a four-game sweep of the Eastern Conference finals and advance to the NBA Finals for the...",
+      "type": "Recap",
+      "published": "2026-05-26T04:23:00Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "event",
+          "description": "New York Knicks @ Cleveland Cavaliers"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "http://www.espn.com/nba/recap?gameId=401873344"
+    },
+    {
+      "headline": "Knicks sweep Cavs, return to NBA Finals for 1st time since 1999",
+      "description": "The Knicks completed a sweep of the Cavaliers in the Eastern Conference finals to make the franchise's first NBA Finals since 1999.",
+      "type": "HeadlineNews",
+      "published": "2026-05-26T07:34:54Z",
+      "categories": [
+        {
+          "type": "topic",
+          "description": "news"
+        },
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "athlete",
+          "description": "Jalen Brunson"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "athlete",
+          "description": "Karl-Anthony Towns"
+        },
+        {
+          "type": "athlete",
+          "description": "Landry Shamet"
+        },
+        {
+          "type": "athlete",
+          "description": "Josh Hart"
+        },
+        {
+          "type": "contributor",
+          "description": "Vincent Goodwill"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48877691/knicks-finish-cavs-make-first-nba-finals-27-years"
+    },
+    {
+      "headline": "'Inside The NBA' crew waves goodbye to Cavs by singing Sinatra",
+      "description": "'Inside The NBA' crew waves goodbye to Cavs by singing Sinatra",
+      "type": "Media",
+      "published": "2026-05-26T06:41:35Z",
+      "categories": [
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "series",
+          "description": "Inside the NBA"
+        },
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "topic",
+          "description": "nba highlight"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Verts - Exclude Content"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Big Boost"
+        },
+        {
+          "type": "event",
+          "description": "New York Knicks @ Cleveland Cavaliers"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/video/clip/_/id/48877647/inside-nba-crew-waves-goodbye-cavs-singing-sinatra"
+    },
+    {
+      "headline": "New York Knicks return to NBA Finals prompts trip back to 1999",
+      "description": "Here's a look back at what was going on in the sports and pop culture world the last time the New York Knicks made the NBA Finals.",
+      "type": "Story",
+      "published": "2026-05-26T04:01:52Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "contributor",
+          "description": "Anthony Gharib"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48876214/new-york-knicks-nba-finals-1999-revisiting-sports-pop-culture-world"
+    },
+    {
+      "headline": "NBA Finals: Jalen Brunson and the Knicks are rewriting history",
+      "description": "Here's how bold moves and a coaching change fueled the New York Knicks' improbable journey to the NBA Finals.",
+      "type": "Story",
+      "published": "2026-05-26T12:38:29Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "athlete",
+          "description": "Jalen Brunson"
+        },
+        {
+          "type": "athlete",
+          "description": "Mitchell Robinson"
+        },
+        {
+          "type": "athlete",
+          "description": "OG Anunoby"
+        },
+        {
+          "type": "athlete",
+          "description": "Josh Hart"
+        },
+        {
+          "type": "athlete",
+          "description": "Mikal Bridges"
+        },
+        {
+          "type": "contributor",
+          "description": "Vincent Goodwill"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48877019/2026-nba-playoffs-knicks-finals-brunson-towns-historic-run"
+    },
+    {
+      "headline": "2026 NBA playoffs: Schedule, scores, news and highlights",
+      "description": "The 2026 NBA playoffs are underway. Keep up with every series right here.",
+      "type": "Story",
+      "published": "2026-05-26T03:00:49Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "topic",
+          "description": "event"
+        },
+        {
+          "type": "contributor",
+          "description": "ESPN Staff Profile"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48419498/nba-playoffs-2026-play-finals-schedule-scores-news-highlights-bracket-dates"
+    },
+    {
+      "headline": "Bam Adebayo takes heat from Panthers after attending Golden Knights game",
+      "description": "A photo of the couple wearing Vegas jerseys in the crowd surfaced and prompted a reaction from the Panthers.",
+      "type": "Story",
+      "published": "2026-05-25T20:33:03Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "Miami Heat"
+        },
+        {
+          "type": "team",
+          "description": "Florida Panthers"
+        },
+        {
+          "type": "team",
+          "description": "Vegas Golden Knights"
+        },
+        {
+          "type": "athlete",
+          "description": "Bam Adebayo"
+        },
+        {
+          "type": "team",
+          "description": "Las Vegas Aces"
+        },
+        {
+          "type": "athlete",
+          "description": "A'ja Wilson"
+        },
+        {
+          "type": "contributor",
+          "description": "Anthony Gharib"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48874492/bam-adebayo-aja-wilson-vegas-golden-knights-game-florida-panthers-fandom"
+    },
+    {
+      "headline": "NBA betting tips, DFS picks for Monday: Will the Cavaliers step up in Game 4?",
+      "description": "Andre Snellings breaks down Monday's Game 4 and offers his favorite bets and DFS plays.",
+      "type": "Story",
+      "published": "2026-05-25T18:49:31Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "Fantasy NBA"
+        },
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "topic",
+          "description": "news - fantasy"
+        },
+        {
+          "type": "topic",
+          "description": "news - fantasy basketball"
+        },
+        {
+          "type": "topic",
+          "description": "news - nba"
+        },
+        {
+          "type": "league",
+          "description": "Sports Betting"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "contributor",
+          "description": "Andre Snellings"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/fantasy/basketball/story/_/id/48873797/daily-fantasy-basketball-tips-nba-betting-odds-picks-dfs-playoffs-monday-5-25-2026"
+    },
+    {
+      "headline": "NBA championship and Finals MVP odds: Knicks look to close out Cavs, Spurs keep series alive",
+      "description": "The Knicks are one win away from a trip to the NBA Finals, where they have the second-shortest title odds.",
+      "type": "Story",
+      "published": "2026-05-25T15:30:08Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "Sports Betting"
+        },
+        {
+          "type": "topic",
+          "description": "news – sports betting"
+        },
+        {
+          "type": "topic",
+          "description": "news - nba"
+        },
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "contributor",
+          "description": "Doug Greenberg"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/espn/betting/story/_/id/45539787/2026-nba-finals-odds-mvp-2025-26-championship-betting"
+    },
+    {
+      "headline": "Stephen A.: Jalen Brunson is the greatest Knick ever if they win the championship",
+      "description": "Stephen A. Smith gives his thoughts on whether Jalen Brunson will be the greatest Knick ever if they win the championship.",
+      "type": "Media",
+      "published": "2026-05-25T20:33:18Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "contributor",
+          "description": "Stephen A. Smith"
+        },
+        {
+          "type": "series",
+          "description": "First Take"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "athlete",
+          "description": "Jalen Brunson"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Verts - Exclude Content"
+        },
+        {
+          "type": "event",
+          "description": "New York Knicks @ Cleveland Cavaliers"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/video/clip/_/id/48872900/jalen-brunson-greatest-knick-ever-win-championship"
+    },
+    {
+      "headline": "Why Stephen A. considers Kenny Atkinson's analytics comment egregious",
+      "description": "Stephen A. Smith reacts to Cavaliers coach Kenny Atkinson's analytics comment that Cleveland has won two out of three games vs. the Knicks.  ",
+      "type": "Media",
+      "published": "2026-05-25T14:38:33Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Verts - Exclude Content"
+        },
+        {
+          "type": "contributor",
+          "description": "Stephen A. Smith"
+        },
+        {
+          "type": "series",
+          "description": "First Take"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/video/clip/_/id/48872659/why-stephen-considers-kenny-atkinson-analytics-comment-egregious"
+    },
+    {
+      "headline": "Sources: Lakers hire Rohan Ramadas as assistant general manager",
+      "description": "The Lakers made their first significant move of the offseason by hiring Rohan Ramadas as an assistant GM under president and GM Rob Pelinka, sources told ESPN.",
+      "type": "HeadlineNews",
+      "published": "2026-05-25T18:45:59Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "Los Angeles Lakers"
+        },
+        {
+          "type": "topic",
+          "description": "news"
+        },
+        {
+          "type": "team",
+          "description": "New Orleans Pelicans"
+        },
+        {
+          "type": "contributor",
+          "description": "Dave McMenamin"
+        },
+        {
+          "type": "contributor",
+          "description": "Shams Charania"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48845975/sources-lakers-hire-rohan-ramadas-assistant-general-manager"
+    },
+    {
+      "headline": "Stephen A.: Thunder-Spurs is a pick 'em series at this point",
+      "description": "Stephen A. Smith takes stock of the Thunder-Spurs series after San Antonio won Game 4 to tie it at 2-2.",
+      "type": "Media",
+      "published": "2026-05-25T14:31:59Z",
+      "categories": [
+        {
+          "type": "editorialindicator",
+          "description": "2 Star Rating"
+        },
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "series",
+          "description": "First Take"
+        },
+        {
+          "type": "contributor",
+          "description": "Stephen A. Smith"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Verts - Exclude Content"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/video/clip/_/id/48872607/thunder-spurs-pick-em-series-point"
+    },
+    {
+      "headline": "Kenny Atkinson: Analytically, Cavs should be up 2-1 in ECF",
+      "description": "Cavaliers head coach Kenny Atkinson talks to reporters about how the analytics show Cleveland has had an edge in two out of three games against the Knicks.",
+      "type": "Media",
+      "published": "2026-05-25T12:45:56Z",
+      "categories": [
+        {
+          "type": "editorialindicator",
+          "description": "2 Star Rating"
+        },
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "series",
+          "description": "Unsportsmanlike with Evan, Canty and Michelle"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Verts - Exclude Content"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/video/clip/_/id/48871603/analytically-cavs-2-1-ecf"
+    },
+    {
+      "headline": "Windhorst: The alarm bells should be going off for OKC",
+      "description": "Brian Windhorst explains why the Thunder should be concerned with how they played without Jalen Williams and Ajay Mitchell.",
+      "type": "Media",
+      "published": "2026-05-25T12:39:56Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "athlete",
+          "description": "Jalen Williams"
+        },
+        {
+          "type": "athlete",
+          "description": "Ajay Mitchell"
+        },
+        {
+          "type": "contributor",
+          "description": "Brian Windhorst"
+        },
+        {
+          "type": "series",
+          "description": "Get Up!"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Verts - Exclude Content"
+        },
+        {
+          "type": "event",
+          "description": "Oklahoma City Thunder @ San Antonio Spurs"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/video/clip/_/id/48871442/alarm-bells-going-okc"
+    },
+    {
+      "headline": "NBA playoffs 2026: Team-building tips from Thunder, Spurs, Knicks, Cavs",
+      "description": "Four conference finalists, four roster-building lessons. What could other teams learn from the Knicks, Cavs, Thunder and Spurs?",
+      "type": "Story",
+      "published": "2026-05-25T15:36:39Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "New Orleans Pelicans"
+        },
+        {
+          "type": "team",
+          "description": "Milwaukee Bucks"
+        },
+        {
+          "type": "team",
+          "description": "Brooklyn Nets"
+        },
+        {
+          "type": "team",
+          "description": "Chicago Bulls"
+        },
+        {
+          "type": "team",
+          "description": "Dallas Mavericks"
+        },
+        {
+          "type": "team",
+          "description": "Indiana Pacers"
+        },
+        {
+          "type": "team",
+          "description": "Memphis Grizzlies"
+        },
+        {
+          "type": "team",
+          "description": "Sacramento Kings"
+        },
+        {
+          "type": "team",
+          "description": "Utah Jazz"
+        },
+        {
+          "type": "team",
+          "description": "Washington Wizards"
+        },
+        {
+          "type": "team",
+          "description": "Miami Heat"
+        },
+        {
+          "type": "team",
+          "description": "LA Clippers"
+        },
+        {
+          "type": "topic",
+          "description": "nba free agency"
+        },
+        {
+          "type": "league",
+          "description": "NBA Draft"
+        },
+        {
+          "type": "team",
+          "description": "Golden State Warriors"
+        },
+        {
+          "type": "team",
+          "description": "Atlanta Hawks"
+        },
+        {
+          "type": "team",
+          "description": "Phoenix Suns"
+        },
+        {
+          "type": "team",
+          "description": "Boston Celtics"
+        },
+        {
+          "type": "team",
+          "description": "Orlando Magic"
+        },
+        {
+          "type": "team",
+          "description": "Toronto Raptors"
+        },
+        {
+          "type": "team",
+          "description": "Portland Trail Blazers"
+        },
+        {
+          "type": "team",
+          "description": "Houston Rockets"
+        },
+        {
+          "type": "team",
+          "description": "Denver Nuggets"
+        },
+        {
+          "type": "team",
+          "description": "Los Angeles Lakers"
+        },
+        {
+          "type": "team",
+          "description": "Minnesota Timberwolves"
+        },
+        {
+          "type": "team",
+          "description": "Detroit Pistons"
+        },
+        {
+          "type": "team",
+          "description": "Charlotte Hornets"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "team",
+          "description": "Philadelphia 76ers"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "contributor",
+          "description": "Vincent Goodwill"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48868620/nba-playoffs-2026-thunder-spurs-knicks-cavs-team-building-trades-signings-lessons"
+    },
+    {
+      "headline": "Kenny Atkinson: Cavs 'analytically' winning series vs. Knicks",
+      "description": "Kenny Atkinson said the Cavaliers \"analytically\" have won two of the first three games against the Knicks in the Eastern Conference finals.",
+      "type": "HeadlineNews",
+      "published": "2026-05-25T12:46:20Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "topic",
+          "description": "news"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48871303/kenny-atkinson-cavs-analytically-winning-series-vs-knicks"
+    },
+    {
+      "headline": "NBA offseason: Six star trade ideas to shake up the summer",
+      "description": "ESPN's NBA insiders pitch six trades that could rock the offseason. But which move would truly change the league landscape?",
+      "type": "Story",
+      "published": "2026-05-25T16:07:08Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "New Orleans Pelicans"
+        },
+        {
+          "type": "team",
+          "description": "Milwaukee Bucks"
+        },
+        {
+          "type": "team",
+          "description": "Brooklyn Nets"
+        },
+        {
+          "type": "team",
+          "description": "Chicago Bulls"
+        },
+        {
+          "type": "team",
+          "description": "Dallas Mavericks"
+        },
+        {
+          "type": "team",
+          "description": "Indiana Pacers"
+        },
+        {
+          "type": "team",
+          "description": "Memphis Grizzlies"
+        },
+        {
+          "type": "team",
+          "description": "Sacramento Kings"
+        },
+        {
+          "type": "team",
+          "description": "Utah Jazz"
+        },
+        {
+          "type": "team",
+          "description": "Washington Wizards"
+        },
+        {
+          "type": "team",
+          "description": "Miami Heat"
+        },
+        {
+          "type": "team",
+          "description": "LA Clippers"
+        },
+        {
+          "type": "topic",
+          "description": "nba free agency"
+        },
+        {
+          "type": "league",
+          "description": "NBA Draft"
+        },
+        {
+          "type": "team",
+          "description": "Golden State Warriors"
+        },
+        {
+          "type": "team",
+          "description": "Atlanta Hawks"
+        },
+        {
+          "type": "team",
+          "description": "Phoenix Suns"
+        },
+        {
+          "type": "team",
+          "description": "Boston Celtics"
+        },
+        {
+          "type": "team",
+          "description": "Orlando Magic"
+        },
+        {
+          "type": "team",
+          "description": "Toronto Raptors"
+        },
+        {
+          "type": "team",
+          "description": "Portland Trail Blazers"
+        },
+        {
+          "type": "team",
+          "description": "Houston Rockets"
+        },
+        {
+          "type": "team",
+          "description": "Denver Nuggets"
+        },
+        {
+          "type": "team",
+          "description": "Los Angeles Lakers"
+        },
+        {
+          "type": "team",
+          "description": "Minnesota Timberwolves"
+        },
+        {
+          "type": "team",
+          "description": "Detroit Pistons"
+        },
+        {
+          "type": "team",
+          "description": "Charlotte Hornets"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "team",
+          "description": "Philadelphia 76ers"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "contributor",
+          "description": "NBA Insiders"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48862012/nba-offseason-2026-six-trade-offers-thunder-nets-lakers-mavs-morant-pistons"
+    },
+    {
+      "headline": "In the Western Conference (chess) finals, it's 2-2 between the Spurs and Thunder. Game 5 awaits",
+      "description": "It's like Victor Wembanyama has been here before.",
+      "type": "Preview",
+      "published": "2026-05-25T16:51:08Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "event",
+          "description": "San Antonio Spurs @ Oklahoma City Thunder"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "http://www.espn.com/nba/preview?gameId=401873201"
+    },
+    {
+      "headline": "Thunder held to worst offensive effort in years in Game 4 loss",
+      "description": "The Thunder turned in their worst offensive performance in years Sunday night in Game 4 as the Spurs evened the Western Conference finals at 2-2.",
+      "type": "HeadlineNews",
+      "published": "2026-05-25T06:36:55Z",
+      "categories": [
+        {
+          "type": "topic",
+          "description": "news"
+        },
+        {
+          "type": "athlete",
+          "description": "Shai Gilgeous-Alexander"
+        },
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "athlete",
+          "description": "Chet Holmgren"
+        },
+        {
+          "type": "contributor",
+          "description": "Tim MacMahon"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48869079/thunder-held-worst-offensive-performance-years-game-4-loss-spurs"
+    },
+    {
+      "headline": "Stephen A. calls out Thunder: 'They were flat all night!'",
+      "description": "Stephen A. Smith joins \"SportsCenter\" to react to the Spurs' double-digit win over the Thunder in Game 4.",
+      "type": "Media",
+      "published": "2026-05-25T12:04:29Z",
+      "categories": [
+        {
+          "type": "editorialindicator",
+          "description": "2 Star Rating"
+        },
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "League Boost"
+        },
+        {
+          "type": "contributor",
+          "description": "Stephen A. Smith"
+        },
+        {
+          "type": "series",
+          "description": "SportsCenter"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "Verts - Exclude Content"
+        },
+        {
+          "type": "event",
+          "description": "Oklahoma City Thunder @ San Antonio Spurs"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/video/clip/_/id/48868661/were-flat-all-night"
+    },
+    {
+      "headline": "Victor Wembanyama sets tone in Game 4 as Spurs even series",
+      "description": "Victor Wembanyama set the tone from the beginning of Game 4 on Sunday as the Spurs evened the Western Conference finals at 2-2.",
+      "type": "HeadlineNews",
+      "published": "2026-05-25T07:16:28Z",
+      "categories": [
+        {
+          "type": "topic",
+          "description": "news"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "athlete",
+          "description": "Victor Wembanyama"
+        },
+        {
+          "type": "athlete",
+          "description": "De'Aaron Fox"
+        },
+        {
+          "type": "athlete",
+          "description": "Stephon Castle"
+        },
+        {
+          "type": "contributor",
+          "description": "Michael C. Wright"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48868264/spurs-shut-thunder-game-4-even-series"
+    },
+    {
+      "headline": "Wembanyama scores 33 points to help Spurs rebound and trounce Thunder 103-82 to even West finals",
+      "description": "— Victor Wembanyama had 33 points, eight rebounds, five assists and three blocks and the San Antonio Spurs held Oklahoma City to its second-lowest postseason total, beating the Thunder 103-82 in Game 4 on Sunday night to tie the Western Conference...",
+      "type": "Recap",
+      "published": "2026-05-25T04:07:03Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "event",
+          "description": "Oklahoma City Thunder @ San Antonio Spurs"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "http://www.espn.com/nba/recap?gameId=401873200"
+    },
+    {
+      "headline": "Spurs rout Thunder in Game 4 to even series",
+      "description": "Spurs rout Thunder in Game 4 to even series",
+      "type": "Media",
+      "published": "2026-05-25T03:00:51Z",
+      "categories": [
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "athlete",
+          "description": "Victor Wembanyama"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "athlete",
+          "description": "Stephon Castle"
+        },
+        {
+          "type": "athlete",
+          "description": "Shai Gilgeous-Alexander"
+        },
+        {
+          "type": "topic",
+          "description": "fantasy"
+        },
+        {
+          "type": "topic",
+          "description": "nba highlight"
+        },
+        {
+          "type": "league",
+          "description": "Fantasy NBA"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "SC4U - Full Highlight"
+        },
+        {
+          "type": "editorialindicator",
+          "description": "SC4U  - Eligible"
+        },
+        {
+          "type": "event",
+          "description": "Oklahoma City Thunder @ San Antonio Spurs"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/video/clip/_/id/48868175/spurs-rout-thunder-game-4-even-series"
+    },
+    {
+      "headline": "NBA playoffs 2026: Top moments as Spurs dominate Thunder to even series",
+      "description": "Here are all the top moments and highlights from Game 4 between the Oklahoma City Thunder and the San Antonio Spurs.",
+      "type": "Story",
+      "published": "2026-05-25T03:32:05Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "contributor",
+          "description": "ESPN Staff Profile"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48863708/oklahoma-city-thunder-san-antonio-spurs-game-4-nba-playoffs-2026-live-updates"
+    },
+    {
+      "headline": "SGA, Jokic, Wembanyama, Doncic, Cunningham make 1st-team All-NBA",
+      "description": "Shai Gilgeous-Alexander of Oklahoma City and Nikola Jokic of Denver were unanimous first-team All-NBA selections, while San Antonio's Victor Wembanyama missed joining them in that club by one vote.",
+      "type": "HeadlineNews",
+      "published": "2026-05-25T15:42:42Z",
+      "categories": [
+        {
+          "type": "topic",
+          "description": "news"
+        },
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "athlete",
+          "description": "Cade Cunningham"
+        },
+        {
+          "type": "athlete",
+          "description": "Luka Doncic"
+        },
+        {
+          "type": "athlete",
+          "description": "Shai Gilgeous-Alexander"
+        },
+        {
+          "type": "athlete",
+          "description": "Nikola Jokic"
+        },
+        {
+          "type": "athlete",
+          "description": "Victor Wembanyama"
+        },
+        {
+          "type": "team",
+          "description": "Denver Nuggets"
+        },
+        {
+          "type": "team",
+          "description": "Detroit Pistons"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "team",
+          "description": "Los Angeles Lakers"
+        },
+        {
+          "type": "team",
+          "description": "New York Knicks"
+        },
+        {
+          "type": "athlete",
+          "description": "Jalen Brunson"
+        },
+        {
+          "type": "team",
+          "description": "Boston Celtics"
+        },
+        {
+          "type": "athlete",
+          "description": "Kevin Durant"
+        },
+        {
+          "type": "athlete",
+          "description": "Kawhi Leonard"
+        },
+        {
+          "type": "athlete",
+          "description": "Donovan Mitchell"
+        },
+        {
+          "type": "athlete",
+          "description": "Tyrese Maxey"
+        },
+        {
+          "type": "team",
+          "description": "Cleveland Cavaliers"
+        },
+        {
+          "type": "team",
+          "description": "Houston Rockets"
+        },
+        {
+          "type": "team",
+          "description": "LA Clippers"
+        },
+        {
+          "type": "athlete",
+          "description": "Jalen Duren"
+        },
+        {
+          "type": "athlete",
+          "description": "Chet Holmgren"
+        },
+        {
+          "type": "athlete",
+          "description": "Jalen Johnson"
+        },
+        {
+          "type": "team",
+          "description": "Atlanta Hawks"
+        },
+        {
+          "type": "team",
+          "description": "Philadelphia 76ers"
+        },
+        {
+          "type": "athlete",
+          "description": "Jamal Murray"
+        },
+        {
+          "type": "contributor",
+          "description": "Dave McMenamin"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48866761/shai-gilgeous-alexander-nikola-jokic-victor-wembanyama-luka-doncic-cade-cunningham-make-first-team-all-nba"
+    },
+    {
+      "headline": "Olympiakos defeats Real Madrid to claim EuroLeague title",
+      "description": "In a raucous Telekom Center in Athens, Greece, on Sunday, Olympiakos clinched the EuroLeague basketball title, defeating Real Madrid 92-85 in a back-and-forth game that saw the eventual champions fall behind 15-3 in the opening four minutes.",
+      "type": "HeadlineNews",
+      "published": "2026-05-24T22:39:36Z",
+      "categories": [
+        {
+          "type": "topic",
+          "description": "news"
+        },
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "league",
+          "description": "Olympics"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/nba/story/_/id/48865519/olympiakos-defeats-real-madrid-claim-euroleague-title"
+    },
+    {
+      "headline": "NBA betting tips, DFS picks for Sunday: Can the Spurs even the series?",
+      "description": "Jim McCormick breaks down Sunday's Game 4 and offers his favorite bets and DFS plays.",
+      "type": "Story",
+      "published": "2026-05-24T16:23:50Z",
+      "categories": [
+        {
+          "type": "league",
+          "description": "Fantasy NBA"
+        },
+        {
+          "type": "league",
+          "description": "NBA"
+        },
+        {
+          "type": "topic",
+          "description": "news - fantasy"
+        },
+        {
+          "type": "topic",
+          "description": "news - fantasy basketball"
+        },
+        {
+          "type": "topic",
+          "description": "news - nba"
+        },
+        {
+          "type": "league",
+          "description": "Sports Betting"
+        },
+        {
+          "type": "team",
+          "description": "San Antonio Spurs"
+        },
+        {
+          "type": "team",
+          "description": "Oklahoma City Thunder"
+        },
+        {
+          "type": "contributor",
+          "description": "Jim McCormick"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        },
+        {
+          "type": "guid"
+        }
+      ],
+      "link": "https://www.espn.com/fantasy/basketball/story/_/id/48862235/daily-fantasy-basketball-tips-nba-betting-odds-picks-dfs-playoffs-sunday-5-24-2026"
+    }
+  ]
+}
