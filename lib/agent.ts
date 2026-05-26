@@ -83,33 +83,61 @@ function greedyOptimize(
   const lineup: Array<Player & { slot: string }> = [];
   let remaining = salaryCap;
 
+  // First pass: value-sorted picks with a salary reserve for remaining slots
   for (let i = 0; i < slots.length; i++) {
     const slot = slots[i];
     const slotsLeft = slots.length - i - 1;
     const maxSpendThisPick = remaining - slotsLeft * minSalary;
 
-    const pick = candidates.find(
+    let pick = candidates.find(
       (c) =>
         !chosenIds.has(c.playerId) &&
         c.slots.includes(slot) &&
         c.projection.salary <= maxSpendThisPick,
     );
 
+    // Fallback 1: cheapest player who fits this slot AND budget
     if (!pick) {
-      const cheapest = candidates
+      pick = candidates
+        .filter(
+          (c) =>
+            !chosenIds.has(c.playerId) &&
+            c.slots.includes(slot) &&
+            c.projection.salary <= remaining,
+        )
+        .sort((a, b) => a.projection.salary - b.projection.salary)[0];
+    }
+
+    // Fallback 2: cheapest player who fits this slot at any price (we'll fix budget below)
+    if (!pick) {
+      pick = candidates
         .filter((c) => !chosenIds.has(c.playerId) && c.slots.includes(slot))
         .sort((a, b) => a.projection.salary - b.projection.salary)[0];
-      if (cheapest && cheapest.projection.salary <= remaining) {
-        chosenIds.add(cheapest.playerId);
-        remaining -= cheapest.projection.salary;
-        lineup.push({ ...cheapest, slot });
-      }
-      continue;
     }
+
+    if (!pick) continue;
 
     chosenIds.add(pick.playerId);
     remaining -= pick.projection.salary;
     lineup.push({ ...pick, slot });
+  }
+
+  // Post-pass: if we somehow have fewer than 8 slots filled, fill any remaining
+  // slots with the cheapest unpicked players (UTIL-friendly)
+  if (lineup.length < slots.length) {
+    const filledSlots = new Set(lineup.map((p) => p.slot));
+    const unfilledSlots = slots.filter((s) => !filledSlots.has(s));
+    const remainingCandidates = candidates
+      .filter((c) => !chosenIds.has(c.playerId))
+      .sort((a, b) => a.projection.salary - b.projection.salary);
+
+    for (const slot of unfilledSlots) {
+      const pick = remainingCandidates.find((c) => !chosenIds.has(c.playerId));
+      if (!pick) break;
+      chosenIds.add(pick.playerId);
+      remaining -= pick.projection.salary;
+      lineup.push({ ...pick, slot });
+    }
   }
 
   return {

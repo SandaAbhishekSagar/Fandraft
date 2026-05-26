@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 declare global {
   interface Window {
@@ -101,8 +101,10 @@ export default function LineupBuilder() {
   const [result, setResult] = useState<LineupResult | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [isListening, setIsListening] = useState(false);
+  const [micError, setMicError] = useState<string | null>(null);
   const [speechSupported, setSpeechSupported] = useState(false);
   const [ttsSupported, setTtsSupported] = useState(false);
+  const recognitionRef = useRef<any>(null);
 
   useEffect(() => {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -149,52 +151,63 @@ export default function LineupBuilder() {
     }
   };
 
-  const handleVoiceInput = () => {
-    if (!speechSupported || isListening) return;
+  const handleMicClick = () => {
+    setMicError(null);
 
-    try {
-      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const SpeechRecognition =
+      (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
+
+    if (!SpeechRecognition) {
+      setMicError("Voice not supported in this browser. Try Chrome.");
+      return;
+    }
+
+    if (!recognitionRef.current) {
       const recognition = new SpeechRecognition();
-
       recognition.continuous = false;
       recognition.lang = "en-US";
       recognition.interimResults = false;
+      recognition.maxAlternatives = 1;
 
       recognition.onstart = () => {
+        console.log("[mic] started");
         setIsListening(true);
-        setError(null);
       };
 
       recognition.onresult = (event: any) => {
         const transcript = event.results[0][0].transcript;
+        console.log("[mic] transcript:", transcript);
         setRequest(transcript);
         setIsListening(false);
-        // pass transcript directly — state update is async and won't be visible yet
+        // Trigger lineup build directly with the transcript
         handleBuildLineup(transcript);
       };
 
       recognition.onerror = (event: any) => {
-        console.warn("Speech recognition error:", event.error);
+        console.error("[mic] error:", event.error);
         setIsListening(false);
-        
-        if (event.error === "not-allowed" || event.error === "service-not-allowed") {
-          setError("Microphone access denied. Please allow microphone permissions.");
-        } else if (event.error === "network") {
-          setError("Voice input unavailable. Try typing instead or check microphone permissions.");
+        if (event.error === "not-allowed") {
+          setMicError("Microphone permission denied. Allow it in browser settings.");
+        } else if (event.error === "no-speech") {
+          setMicError("Didn't hear anything. Try again.");
         } else {
-          setError("Voice input failed. Please try typing your request.");
+          setMicError(`Mic error: ${event.error}`);
         }
       };
 
       recognition.onend = () => {
+        console.log("[mic] ended");
         setIsListening(false);
       };
 
-      recognition.start();
+      recognitionRef.current = recognition;
+    }
+
+    try {
+      recognitionRef.current.start();
     } catch (err) {
-      console.error("Failed to initialize speech recognition:", err);
-      setError("Voice input unavailable in this browser. Please type your request.");
-      setSpeechSupported(false);
+      console.error("[mic] start failed:", err);
+      setMicError("Mic already listening or unavailable.");
     }
   };
 
@@ -260,7 +273,7 @@ export default function LineupBuilder() {
           </button>
           {speechSupported && (
             <button
-              onClick={handleVoiceInput}
+              onClick={handleMicClick}
               disabled={loading || isListening}
               className="relative px-4 py-3 bg-zinc-900 border border-zinc-800 hover:border-zinc-700 disabled:opacity-50 disabled:cursor-not-allowed rounded-lg transition-colors text-xl"
             >
@@ -273,6 +286,9 @@ export default function LineupBuilder() {
         </div>
         {error && (
           <p className="mt-2 text-sm text-red-400">{error}</p>
+        )}
+        {micError && (
+          <p className="mt-1 text-sm text-red-400">{micError}</p>
         )}
       </div>
 
