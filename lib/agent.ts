@@ -84,20 +84,42 @@ function greedyOptimize(
   for (let i = 0; i < slots.length; i++) {
     const slot = slots[i];
     const slotsRemaining = slots.length - i;
-    const reservePerSlot = 3000;
+    const reservePerSlot = 1000;
     const maxSpend = remainingCap - (slotsRemaining - 1) * reservePerSlot;
 
-    const pick = candidates.find(
+    // Primary pass: respect salary reserve
+    let pick = candidates.find(
       (p) =>
         !chosenIds.has(p.playerId) &&
         p.slots.includes(slot) &&
         p.projection.salary <= maxSpend
     );
 
+    // Fallback pass: ignore reserve if no eligible player found (small pool edge case)
+    if (!pick) {
+      pick = candidates.find(
+        (p) =>
+          !chosenIds.has(p.playerId) &&
+          p.slots.includes(slot) &&
+          p.projection.salary <= remainingCap
+      );
+      if (pick) {
+        logger.warn("agent", `Slot ${slot}: reserve relaxed to find a pick`, {
+          maxSpendWithReserve: maxSpend,
+          pickedSalary: pick.projection.salary,
+        });
+      }
+    }
+
     if (pick) {
       lineup.push({ ...pick, slot });
       chosenIds.add(pick.playerId);
       remainingCap -= pick.projection.salary;
+    } else {
+      logger.warn("agent", `Slot ${slot}: no eligible player found`, {
+        remainingCap,
+        candidatesLeft: candidates.filter((p) => !chosenIds.has(p.playerId) && p.slots.includes(slot)).length,
+      });
     }
   }
 
@@ -134,9 +156,9 @@ async function executeTool(name: string, args: any) {
       source: data.source,
       count: data.count,
       articles: data.articles.slice(0, 20).map((article) => ({
-        headline: article.headline,
-        description: article.description.slice(0, 200),
-        published: article.published,
+        headline: article.headline ?? "",
+        description: (article.description ?? "").slice(0, 200),
+        published: article.published ?? "",
       })),
     };
   }
